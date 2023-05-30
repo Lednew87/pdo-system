@@ -1,0 +1,111 @@
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/consulta.jpg);
+    background-size: cover;
+   
+}
+
+form {
+
+	margin: 20px;
+    padding: 20px;
+}
+
+form label, form legend {
+
+	display:block;
+	font-size: 40px;
+    font-style: oblique;
+    color:  rgb(25, 82, 14);
+    padding: 10px;
+   
+}
+
+.input-padrao {
+
+	display: block;
+	padding: 20px 25px;
+    width: 180px;
+    height: 5px;
+    font-size: small;
+    margin-right: 100px;
+   
+}
+
+p {
+    color: red;
+    font-style:inherit;
+    font-size: 25px;
+    margin-top:-60px;
+    margin-left: 70px;
+    font-weight: bolder;
+
+}
+
+h2 {
+
+    position:absolute;
+    color: rgb(25, 82, 14);
+    font-style: oblique;
+    font-size: 30px;
+    margin-top:60px;
+    
+
+}
+
+h1 {
+
+    color: rgb(25, 82, 14);
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.box-model {
+
+    height: 480px;
+    width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 50px;
+    
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgba(90, 204, 75, 0.555);
+    border-radius: 30px;
+
+    text-align: center;
+    box-shadow: inset 10px 10px 13px 10px rgb(206, 238, 200);
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    outline-width: 40px;
+    outline-style: double;
+    outline-color: rgb(25, 82, 14);
+
+}
+
+.botao {
+	width:105%;
+	padding: 15px 0;
+	background: rgb(72, 133, 72);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+    margin-top: 20px;
+}
+
+.botao:hover {
+	background: darkgreen;
+	transform: scale(1.2);
+}
